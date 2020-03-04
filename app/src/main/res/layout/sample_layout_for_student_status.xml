@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#ffffff"
+    app:cardPreventCornerOverlap="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:id="@+id/statusradioGroupId"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/statuspresentId"
+                    android:background="@drawable/background_for_radio_2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:text="PRESENT"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    />
+                <RadioButton
+                    android:id="@+id/statuslateId"
+                    android:background="@drawable/background_for_radio_3"
+                    android:layout_width="0dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="LATE"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    />
+                <RadioButton
+                    android:id="@+id/statusabsentId"
+                    android:background="@drawable/background_for_radio_1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:text="ABSENT"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+
+                    android:layout_margin="5dp"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

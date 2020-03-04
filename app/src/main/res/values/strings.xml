@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">My Attendence</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="search_title">Search</string>
+
+    <string-array name="allBatches">
+        <item>Select</item>
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+        <item>11th</item>
+        <item>12th</item>
+        <item>13th</item>
+        <item>14th</item>
+        <item>15th</item>
+        <item>16th</item>
+        <item>17th</item>
+        <item>18th</item>
+        <item>19th</item>
+        <item>20th</item>
+        <item>21st</item>
+        <item>22nd</item>
+        <item>23rd</item>
+        <item>24th</item>
+        <item>25th</item>
+        <item>26th</item>
+        <item>27th</item>
+        <item>28th</item>
+        <item>29th</item>
+        <item>30th</item>
+        <item>31st</item>
+        <item>32nd</item>
+        <item>33rd</item>
+        <item>34th</item>
+        <item>35th</item>
+        <item>36th</item>
+        <item>37th</item>
+        <item>38th</item>
+        <item>39th</item>
+        <item>40th</item>
+    </string-array>
+
+    <string-array name="allDepartment">
+        <item>Select</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>CIVIL</item>
+        <item>BBA</item>
+        <item>ICE</item>
+        <item>LAW</item>
+        <item>ENGLISH</item>
+        <item>MATHEMATICS</item>
+        <item>PHYSICS</item>
+        <item>CHEMISTRY</item>
+        <item>SOCIOLOGY</item>
+    </string-array>
+
+    <string-array name="allDayName">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+    </string-array>
+
+    <string-array name="class_period">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+    </string-array>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme.NoActionBar"
+    android:orientation="vertical"
+
+    tools:context=".activity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+         />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher Mode"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:background="#1339f2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        >
+
+    </View>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <Button
+                android:id="@+id/takeattendenceButtonId"
+                style="@style/Base.Widget.AppCompat.ActionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#EC6666"
+                android:text="TAKE ATTENDENCE"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold|normal" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <Button
+                android:id="@+id/showAttendenceButtonId"
+                style="@style/Base.Widget.AppCompat.ActionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EC6666"
+                android:text="SHOW ATTENDENCE"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold|normal" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/modifyTableButtonId"
+                style="@style/Base.Widget.AppCompat.ActionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EC6666"
+                android:text="MODIFY TABLE"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold|normal" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

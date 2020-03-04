@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center|top"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:padding="3dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:id="@+id/listtextForTeacherNameID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JUNAED"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_gravity="end"
+            android:textAlignment="center"
+            android:id="@+id/listtextForTeacherIdID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JUNAED"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
